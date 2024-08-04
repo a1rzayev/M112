@@ -7,8 +7,7 @@ class ProfilePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Profile'),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
+      body: Center(
         child: Column(
           children: [
             CircleAvatar(
